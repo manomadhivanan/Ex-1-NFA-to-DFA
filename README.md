@@ -295,7 +295,7 @@ int main() {
 
 ```
 # OUTPUT 
-![image](https://github.com/manomadhivanan/Ex-1-NFA-to-DFA/assets/144870561/c34dedd2-04e2-4c03-beac-8a4db07691b5)
+<img width="347" alt="image" src="https://github.com/manomadhivanan/Ex-1-NFA-to-DFA/assets/115543366/1601297c-388a-430d-85ba-c2dfd8ca5b90">
 
 # RESULT
 The program was sucessfully converted from NFA to DFA.
