@@ -295,54 +295,8 @@ int main() {
 
 ```
 # OUTPUT 
-[?2004l
+![image](https://github.com/manomadhivanan/Ex-1-NFA-to-DFA/assets/144870561/c34dedd2-04e2-4c03-beac-8a4db07691b5)
 
- STATES OF NFA :		A, B, C, D, E, F, 
-
- GIVEN SYMBOLS FOR NFA: 	0, 1, eps
-
-
- NFA STATE TRANSITION TABLE 
-
-
-STATES	|0	|1	eps
---------+------------------------------------
-A	|FC 	|- 	|BF 	
-B	|- 	|C 	|- 	
-C	|- 	|- 	|D 	
-D	|E 	|A 	|- 	
-E	|A 	|- 	|BF 	
-F	|- 	|- 	|- 	
-
- e-Closure (A) :	ABF
-
- e-Closure (B) :	B
-
- e-Closure (C) :	CD
-
- e-Closure (D) :	D
-
- e-Closure (E) :	BEF
-
- e-Closure (F) :	F
-
-
-********************************************************
-
-		 DFA TRANSITION STATE TABLE 		 
-
-
- STATES OF DFA :		ABF, CDF, CD, BEF, 
-
- GIVEN SYMBOLS FOR DFA: 	0, 1, 
-
-STATES	|0	|1	
---------+-----------------------
-ABF	|CDF 	|CD 	
-CDF	|BEF 	|ABF 	
-CD	|BEF 	|ABF 	
-BEF	|ABF 	|CD 	
-[?2004h
 # RESULT
 The program was sucessfully converted from NFA to DFA.
 
